@@ -4,7 +4,7 @@ import urllib.request,json
 #to run program just run module in idle and then call the weather search function i.e weather_search()
 def weather_search():
     city= input("Enter city Name: ")
-    url='http://api.openweathermap.org/data/2.5/weather?appid=0c42f7f6b53b244c78a418f4f181282a&q=' + city
+    url='http://api.openweathermap.org/data/2.5/weather?appid=aa17bc1d9e8848d5f9593dcc184fe891&q=' + city
     json_obj = urllib.request.urlopen(url)
     data = json.load(json_obj)
 #this returns the whole object from url
