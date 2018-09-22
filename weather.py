@@ -15,4 +15,6 @@ def weather_search():
         print (item)
 
 #looping through the list to return only main. Lists are inside square braces[]
+
         print (item['main'])
+        print (item['description'])
